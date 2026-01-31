@@ -1,0 +1,9 @@
+# Rust build artifacts
+/target/
+**/target/
+
+# Cargo.lock for libraries (keep it for applications)
+# We'll keep Cargo.lock since we have a binary application
+
+# Debug files
+**/*.rs.bk
