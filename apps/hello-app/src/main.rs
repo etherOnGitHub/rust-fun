@@ -1,3 +1,6 @@
+use core::greeting::greeting;
+
 fn main() {
-    core::greet("etherchild");
+    let message =  greeting("etherchild");
+    println!("{}", message);
 }
