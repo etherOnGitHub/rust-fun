@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 core = { path = "../../crates/core" }
+validation = { path = "../../crates/validation" }

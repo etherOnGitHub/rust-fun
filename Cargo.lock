@@ -11,4 +11,9 @@ name = "hello-app"
 version = "0.1.0"
 dependencies = [
  "core",
+ "validation",
 ]
+
+[[package]]
+name = "validation"
+version = "0.1.0"
