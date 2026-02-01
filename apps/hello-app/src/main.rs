@@ -7,6 +7,8 @@ fn main() {
     if let Err(error) = validate_name(&message) {
         println!("Validation error: {}", error);
         return;
+    } else {
+        println!("Name is valid.");
     }
 
     println!("{}", message);
