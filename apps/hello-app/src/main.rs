@@ -1,4 +1,5 @@
 use core::greeting::greeting;
+use core::greeting::reverser;
 use validation::validation::validate_name;
 
 fn main() {
@@ -20,7 +21,7 @@ fn main() {
     // The `rev()` method reverses the order of the characters.
     // The `collect()` gathers them back into a `String`.
     
-    let reversed = name.chars().rev().collect::<String>();
+    let reversed = reverser(name);
     println!("Original: {}", name);
     println!("Reversed: {}", reversed);
 }
