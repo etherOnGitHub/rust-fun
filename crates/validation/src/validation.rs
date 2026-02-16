@@ -6,6 +6,7 @@ pub fn validate_name(name: &str) -> Result<(), String> {
     }
 }
 
+// Run tests with `cargo test` in the `validation` crate directory. This will execute the tests defined in the `tests` module.
 #[cfg(test)]
 mod tests {
     use super::*;

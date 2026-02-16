@@ -1,5 +1,6 @@
 use core::greeting::greeting;
 use core::greeting::reverser;
+use core::greeting::even_numbers_total;
 use validation::validation::validate_name;
 
 fn main() {
@@ -24,4 +25,8 @@ fn main() {
     let reversed = reverser(name);
     println!("Original: {}", name);
     println!("Reversed: {}", reversed);
+
+    let numbers = [1, 2, 3, 4, 5, 6];
+    let total = even_numbers_total(&numbers);
+    println!("Total of even numbers: {}", total);
 }
