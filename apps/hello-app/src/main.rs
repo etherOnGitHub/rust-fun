@@ -13,4 +13,14 @@ fn main() {
 
     let message =  greeting("etherchild");
     println!("{}", message);
+
+    
+    // Creates a string and reverses it.
+    // The `chars()` method converts the string into an iterator of characters.
+    // The `rev()` method reverses the order of the characters.
+    // The `collect()` gathers them back into a `String`.
+    
+    let reversed = name.chars().rev().collect::<String>();
+    println!("Original: {}", name);
+    println!("Reversed: {}", reversed);
 }
