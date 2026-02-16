@@ -5,3 +5,16 @@ pub fn validate_name(name: &str) -> Result<(), String> {
         Ok(())
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_validate_name() {
+        assert!(validate_name("Alice").is_ok());
+        assert!(validate_name("  Bob  ").is_ok());
+        assert!(validate_name("").is_err());
+        assert!(validate_name("   ").is_err());
+    }
+}
