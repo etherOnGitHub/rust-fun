@@ -11,8 +11,13 @@ name = "hello-app"
 version = "0.1.0"
 dependencies = [
  "core",
+ "messingaround",
  "validation",
 ]
+
+[[package]]
+name = "messingaround"
+version = "0.1.0"
 
 [[package]]
 name = "validation"
