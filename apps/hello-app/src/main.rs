@@ -1,4 +1,5 @@
 use std::mem;
+mod rusty;
 
 use core::greeting::greeting;
 use core::greeting::reverser;
@@ -61,4 +62,6 @@ fn main() {
     }
     let n3 = n1 * n2;
     println!("The product of n1 and n2 is: {}", n3);
+
+    rusty::main();
 }
