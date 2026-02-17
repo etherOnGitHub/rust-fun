@@ -55,5 +55,6 @@ pub fn main() {
         }
     }
     println!("The other vector is: {:?}", vec2);
+    println!("The vector is: {:?}", vec1);
 }
 
