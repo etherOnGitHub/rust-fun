@@ -3,7 +3,7 @@ use core::greeting::reverser;
 use core::greeting::even_numbers_total;
 use validation::validation::validate_name;
 
-fn main() {
+pub fn main() {
     let name = "etherchild";
 
     if let Err(error) = validate_name(name) {
