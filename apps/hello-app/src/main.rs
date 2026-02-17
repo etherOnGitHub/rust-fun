@@ -1,6 +1,7 @@
 use std::mem;
 mod rusty;
 mod bruh;
+mod listen;
 
 use core::greeting::greeting;
 use core::greeting::reverser;
@@ -66,4 +67,5 @@ fn main() {
 
     rusty::main();
     bruh::main();
+    listen::main();
 }
