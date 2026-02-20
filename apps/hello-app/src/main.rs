@@ -3,6 +3,9 @@ mod rusty;
 mod bruh;
 mod listen;
 mod ok;
+mod func;
+mod ownership;
+mod borrow;
 
 use core::greeting::greeting;
 use core::greeting::reverser;
@@ -70,4 +73,7 @@ fn main() {
     bruh::main();
     listen::main();
     ok::main();
+    func::main();
+    ownership::main();
+    borrow::main();
 }
